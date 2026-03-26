@@ -1,0 +1,107 @@
+lesson=6 Inspect Element(Working With Inspect Element)
+Learning Objectives
+Explain the importance of the inspect element.
+Explore various tabs present on the inspect element panel.
+Edit the css code of any Web page and see how it affect the web page.
+
+Inspect element
+It is a browser integrated developer's tool that is present in almost all widely Used web browsers.
+
+Quiz 1
+Q1. Which of these gets downloaded on the browser when we open a website?
+A. PHP
+B. HTML+CSS
+C. JS
+
+Explanation
+Answer:- B. HTML+CSS
+A website has 3 parts: Look and feel (HTML + CSS), Data (MySQL), code to interact with the data (PHP)
+HTML+CSS gets downloaded on the browser when we open a website.
+
+Q2. Browser acts as Html and CSS______________
+A. Complier
+B. Editor
+C. IDE
+Explanation
+Answer:- A. Complier
+The browser acts like the compiler of HTML and CSS. Like GCC compiles a code written in C and produces the desired output, similarly the browser converts the HTML and CSS code that gets downloaded to its desired output.
+
+Q3. The Change Made on a webpage using inspect element is permanent.
+A. True
+B. False
+Explanation
+Answer:- B. False
+We can only change the code that gets downloaded on our browser and once we refresh it, we will get back the original website.
+
+Q4. Which of these acts as a debugging tool for HTML and CSS?
+A. Browser
+B. Web server
+C. Inspect element
+D. View page source
+
+Explanation
+Answer:- C. Inspect element
+Inspect element acts as a debugging tool for HTML and CSS.
+
+Q5. Which of the following is possible to do via inspect element?
+A. Add a new style property
+B. Remove an existing style property
+C. Edit the value of an existing style property
+D. All of the above
+
+Explanation
+Answer:- D. All of the above
+Using inspect element we can add a new style property, remove an existing style property, and edit the value of an existing style property.
+
+Quiz 2
+Q1. Which tab on inspect element on Google Chrome is used to inspect the HTML and CSS of a web page?
+A. Elements
+B. Console
+C. Network
+D. Sources
+
+Explanation
+Answer:- A. Elements
+In Google Chrome, It is the Elements tab that is used to inspect the HTML and CSS of a web Page.
+
+Q2. While inspecting elements on your browser, which component of the box model indicates which color?
+Blue	:: Content
+Green	:: Margin
+Yellow	:: Padding	
+Orange	:: Border
+
+Answer:- 
+Blue	:: Content
+Green	:: Padding
+Yellow	:: Border
+Orange	:: Margin
+
+Explanation
+While inspecting elements on the browser, blue indicates content, green indicates padding, yellow indicates border, and orange indicates margin.
+
+Q3. What does the computed sub-tab on the right hand side under the elements tab of the inspect element indicate?
+A. We can edit the style properties under the computed tab.
+B. It lists all the style properties that got applied on the selected element in an alphabetical order.
+C. It gives us the option to choose different viewports / screen sizes.
+
+Explanation
+Answer:- B
+It lists all the style properties that got applied on the selected element in an alphabetical order.
+
+Q4. Which of the following is possible to do via inspect element?
+A. We can edit content of any HTML element.
+B. We can edit the values of any style property of any HTML element.
+C. We can add a new style property to any HTML element.
+
+Explanation
+Answer:- All Selected
+Via inspect element, we can edit content of any HTML element. We can even edit the values of any style property of any HTML element. And also add a new style property to any HTML element.
+
+Q5. What does the marked area represent in the below image?
+A.It indicates the file name along with the line number of the CSS file where the corresponding CSS code snippet is present.
+B. It shows the CSS file name along with the number of errors the file has.
+C. It indicates the CSS file name along with the total number of lines it contains.
+
+Explanation
+Answer:- A
+The parked area indicates the file name along with the line number of the CSS file where the corresponding CSS code snippet is present.

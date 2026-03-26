@@ -1,0 +1,11 @@
+echo "# F-S-W-D-w-AI" >> README.md
+git init
+git add README.md
+git commit -m "css"
+git branch -M main
+git remote add origin https://github.com/rakeshjan9090/webrakeshjangid.git
+git push -u origin main
+
+git remote add origin https://github.com/rakeshjan9090/webrakeshjangid.git
+git branch -M main
+git push -u origin main

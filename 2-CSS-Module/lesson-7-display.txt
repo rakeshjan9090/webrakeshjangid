@@ -1,0 +1,3 @@
+Learning objectives
+Apply display CSS property to style a web page.
+Explain inline, block, inline-block, and none display property values.
