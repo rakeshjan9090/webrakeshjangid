@@ -1,3 +1,23 @@
 Learning objectives
 Apply display CSS property to style a web page.
 Explain inline, block, inline-block, and none display property values.
+
+example:- 
+
+Display:- It is used to specify how an element will align horizontally with respect to other adjacent elements.
+-> property:value
+(block, inline, inline-block, none)
+
+Default Value is different for different elements.
+-> For paragraph elements, the default display property value is block.
+-> For anchor elements, the default display property value is inline.
+
+-> Display:inline:- An element starts beside the previous element, provided the previous element allows it to sit next to it and there is enough space.
+
+-> Display:block
+
+example:- css a{
+    border: solid 1px black;
+    display: block;
+    width: 200px;
+}
