@@ -1,7 +1,12 @@
 /*Display:inline*/
-div {
+/* div {
   border: solid 1px red;
-}
+} */
 a {
    border: solid 1px black; 
+    /* display: inline; */
+    display: inline-block;
+   width: 200px;
+   /* margin: 10px;
+   padding: 10px; */
 }

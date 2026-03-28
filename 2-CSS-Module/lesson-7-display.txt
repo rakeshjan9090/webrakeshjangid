@@ -12,12 +12,80 @@ Default Value is different for different elements.
 -> For paragraph elements, the default display property value is block.
 -> For anchor elements, the default display property value is inline.
 
--> Display:inline:- An element starts beside the previous element, provided the previous element allows it to sit next to it and there is enough space.
+-> Display:inline:- 
+-----> An element starts beside the previous element, provided the previous element allows it to sit next to it and there is enough space.
+-----> Width and Height Css properties have no effect
 
--> Display:block
+-> Display:block:- 
+-----> An element always starts from a new line even if there is enough space next to the previous element.
+-----> Takes the entire width available.
 
 example:- css a{
     border: solid 1px black;
     display: block;
     width: 200px;
 }
+
+-> Display:inline-block:- 
+-----> Element acquire properties of inline and block elements.
+
+example:- a{
+    border: solid 1px black;
+    display: inline-block;
+}
+
+-> Display:none:- 
+-----> used to hide the HTML elements from the users.
+
+example:- a{
+    border: solid 1px black;
+    display:none;
+    width: 200px;
+}
+
+-> Quiz
+Q1. Which of the following statements is true with respect to display style property?
+A. The display property is used to specify how an element will align horizontally with respect to other adjacent elements.
+B. There are four main values: block, inline, inline-block and none.
+C. The default value of display is different for different elements.
+
+Answer:- All Selected
+Explanation:- 
+The display property is used to specify how an element will align horizontally with respect to other adjacent elements. There are four main values: block, inline, inline-block and none. The default value of display is different for different elements.
+
+Q2. Which of the following is NOT true for elements with display: block?
+A. An element with a display: block always starts from a new line.
+B. An element with display: block never allows other elements to sit beside it, even if there is enough space for them.
+C. We cannot set a width explicitly to an element with display: block.
+D. By default, an element with display: block takes up the entire width available.
+
+Answer:- C
+Explanation:- We can explicitly set a width to an element with display: block.
+
+Q3. Which of the following is NOT true for elements with display: inline?
+A. An element with display: inline always starts from a new line.
+B. An element with display: inline allows other elements to sit next to it, provided there is enough space for them.
+C. We cannot set a width or height to an element with display: inline.
+D. An element with display: inline takes only as much space as required.
+
+Answer:- A
+Explanation:- An element with display: inline starts beside the previous element, provided the previous element allows it to and there is enough space for this element.
+
+Q4. Which of the following is NOT true for elements with display: inline-block?
+A. An element with display: inline-block always starts next to the previous element, provided there is enough space for this element.
+B. An element with display: inline-block never allows other elements to sit beside it, even if there is enough space for them.
+C. We can set a width explicitly to an element with display: inline-block.
+D. By default, an element with display: inline-block takes only as much space as required.
+
+Answer:- B
+Explanation:- An element with display: inline-block allows other elements to sit next to it, provided there is enough space for them.
+
+Q5. Which of the following statements is true with respect to elements with display as none?
+A. Elements with display value set as none are hidden.
+B. The element does exist in the HTML, but is visually hidden from the users.
+C. The element does not occupy any space as the next element takes its place.
+
+Answer:- All Selected
+Explanation:- 
+An element with display: none is hidden. It does exist in the HTML, but is visually hidden from the users. It does not occupy any space as the next element takes its place.
+
