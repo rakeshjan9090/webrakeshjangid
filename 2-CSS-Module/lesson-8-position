@@ -12,3 +12,22 @@
 > font-size
 > Position
 > z-index
+
+> Position:->
+
+----> It helps us to move HTML elements from their existing Positions.
+----> It has4 values:static, relative, fixed, and absolute.
+
+1. Position:static:-
+   ----> Default Value is different for different elements.
+   ----> Elements Cannot be moved from their position.
+
+2. Position:relative:-
+   ----> It helps move an HTML element with respect to its original position.
+   ----> Position Property:-
+   1. top
+   2. right
+   3. bottom
+   4. left
+
+> Exercise:- Download the HTML code and change the position value to relative. Assign the properties: top, left, right, and bottom using any length values and observe the output.
